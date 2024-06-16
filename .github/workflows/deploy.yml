@@ -18,4 +18,4 @@ jobs:
         uses: yinguzwg-1/message-pro@master
         with:
           branch: master # 更改为您想要部署的分支
-          folder: public/ # 更改为您构建的输出文件夹
+          folder: dist/ # 更改为您构建的输出文件夹
