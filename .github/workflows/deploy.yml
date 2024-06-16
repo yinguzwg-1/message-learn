@@ -2,7 +2,7 @@ name: Deploy Next.js to GitHub Pages
 on:
   push:
     branches:
-      - main # 更改为您的默认分支
+      - master # 更改为您的默认分支
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
