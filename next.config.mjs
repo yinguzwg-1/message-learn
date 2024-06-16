@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
-
 const repo = "message-pro";
 const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
-
 const nextConfig = {
   basePath,
   assetPrefix,
