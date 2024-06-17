@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install and Build 🔧👷
-        run: |
-          npm install
+        run: npm install
           npm run build
       - name: Deploy 🚀
         uses: yinguzwg-1/message-pro@main
+
         with:
           branch: master # 更改为您想要部署的分支
           folder: dist/ # 更改为您构建的输出文件夹
